@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="stitchdb",
-    version="1.0.0",
+    version="1.1.0",
     description="StitchDB database backend for Django",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
@@ -13,6 +13,7 @@ setup(
     install_requires=[
         "django>=3.2",
         "requests>=2.25.0",
+        "websocket-client>=1.0.0",
     ],
     python_requires=">=3.7",
     license="MIT",
